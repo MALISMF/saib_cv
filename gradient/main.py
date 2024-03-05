@@ -7,7 +7,7 @@ def lerp(v0, v1, t):
 
 count = 0
 
-size = 10
+size = 100
 image = np.zeros((size, size, 3), dtype="uint8")
 assert image.shape[0] == image.shape[1]
 
